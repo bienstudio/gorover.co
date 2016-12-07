@@ -1,0 +1,24 @@
+.hero
+  background-image: url(/assets/img/balloons.jpg)
+  background-size: cover
+  background-position: center center
+  color: $color-dark-green
+  display: flex
+  align-items: center
+  justify-content: center
+  height: calc(100vh - #{rhythm(2.10)})
+  text-align: center
+
+  &__title, &__description
+    // text-shadow: 0px -0px 2px $color-text
+
+  &__title
+    font-size: $font-size-2
+    font-weight: $font-weight-semibold
+    line-height: $line-height-normal
+
+  &__description
+    font-size: $font-size-1
+
+  &__nav
+    margin-top: rhythm(1)
