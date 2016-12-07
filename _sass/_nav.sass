@@ -1,0 +1,16 @@
+.nav
+  &__list
+    &--right
+      float: right
+
+  &__item
+    display: inline-block
+
+    & + &
+      margin-left: rhythm(0.5)
+
+    a
+      color: $color-grey
+
+      &:hover
+        color: $color-text

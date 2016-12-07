@@ -1,9 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+
     <title>{{ site.title }}</title>
+
+    <link href="/assets/css/application.css" rel="stylesheet">
+
+    <script src="https://use.typekit.net/kes2xns.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
-    {{ content }}
+    <header class="header" role="banner">
+      <aside>
+        <h1 class="header__logo"><a href="/">Rover</a></h1>
+      </aside>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#">For Vacations</a></li>
+          <li class="nav__item"><a href="#">For Business</a></li>
+        </ul>
+      </nav>
+      <nav class="header__nav  nav">
+        <ul class="header__nav nav__list nav__list--right">
+          <li class="nav__item"><a href="#">Login</a></li>
+          <li class="nav__item"><a href="#">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main" role="main">
+      {{ content }}
+    </main>
+    <footer class="footer" role="footer">
+      <aside class="footer__legal">
+        <p class="footer__copyright">&copy; 2016 <a href="#">Rover</a></p>
+      </aside>
+      <nav class="footer__nav nav">
+        <ul class="nav__list nav__list--right">
+          <li class="nav__item"><a href="#">About Us</a></li>
+          <li class="nav__item"><a href="#">Blog</a></li>
+          <li class="nav__item"><a href="#">Help</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
