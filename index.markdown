@@ -1,6 +1,6 @@
 ---
 title: Index
-permalink: /
+permalink: "/"
 ---
 
 <div class="hero">
