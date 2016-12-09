@@ -21,8 +21,10 @@
       </aside>
       <nav class="header__nav nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#">For Vacations</a></li>
-          <li class="nav__item"><a href="#">For Business</a></li>
+          {% assign nav = site.pages | where:"nav","header" | sort:"position" %}
+          {% for page in nav %}
+            <li class="nav__item"><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
       <nav class="header__nav  nav">
@@ -37,13 +39,14 @@
     </main>
     <footer class="footer" role="footer">
       <aside class="footer__legal">
-        <p class="footer__copyright">&copy; 2016 <a href="#">Rover</a></p>
+        <p class="footer__copyright">&copy; 2016 <a href="/">Rover</a></p>
       </aside>
       <nav class="footer__nav nav">
         <ul class="nav__list nav__list--right">
-          <li class="nav__item"><a href="#">About Us</a></li>
-          <li class="nav__item"><a href="#">Blog</a></li>
-          <li class="nav__item"><a href="#">Help</a></li>
+          {% assign nav = site.pages | where:"nav","footer" | sort: "position" %}
+          {% for page in nav %}
+            <li class="nav__item"><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </footer>

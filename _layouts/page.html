@@ -2,4 +2,11 @@
 layout: default
 ---
 
-{{ content }}
+<div class="page">
+  <header class="page__header" style="background-image: url({{ page.title_image }}); color: {{ page.title_color }}">
+    <h2 class="page__title">{{ page.description }}</h2>
+  </header>
+  <section class="page__content">
+    {{ content }}
+  </section>
+</div>

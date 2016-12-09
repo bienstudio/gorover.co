@@ -1,0 +1,28 @@
+.page
+  margin-bottom: rhythm(2)
+
+  &__header
+    background-size: cover
+    background-position: center center
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: rhythm(2)
+    height: 50vh
+    text-align: center
+
+  &__image
+    max-width: 100%
+
+  &__title
+    +adjust-font-size-to($font-size-2)
+
+    margin-top: rhythm(1)
+    font-weight: $font-weight-semibold
+
+  &__content
+    margin: 0 auto
+    max-width: rhythm(26)
+
+    p + p
+      margin-top: rhythm(1)
