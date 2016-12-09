@@ -1,7 +1,7 @@
 ---
 title: Index
-permalink: /
 layout: blank
+permalink: "/"
 ---
 
 <div class="hero">
