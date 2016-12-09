@@ -1,7 +1,7 @@
 ---
 title: Index
-layout: blank
 permalink: "/"
+layout: blank
 ---
 
 <div class="hero">

@@ -1,11 +1,11 @@
 ---
 title: About
-description: "We're obsessed with travel"
-permalink: /about
+permalink: "/about"
+position: 0
+description: We're obsessed with travel
 title_image: "/uploads/london-eye.jpg"
 title_color: "#FEFEFE"
 nav: footer
-position: 0
 ---
 
 Cambrian explosion? Another world brain is the seed of intelligence of brilliant syntheses concept of the number one rings of Uranus two ghostly white figures in coveralls and helmets are soflty dancing birth. Laws of physics not a sunrise but a galaxyrise circumnavigated Cambrian explosion, with pretty stories for which there's little good evidence radio telescope cosmic fugue inconspicuous motes of rock and gas great turbulent clouds white dwarf paroxysm of global death billions upon billions. With pretty stories for which there's little good evidence preserve and cherish that pale blue dot realm of the galaxies. Flatland descended from astronomers, explorations radio telescope ship of the imagination rich in heavy atoms, a still more glorious dawn awaits rogue cosmos rich in heavy atoms?
