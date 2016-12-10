@@ -1,0 +1,20 @@
+{
+  "name": "gorover.co",
+  "version": "0.1.0",
+  "main": "Gulpfile.js",
+  "repository": {
+    "url": "git@github.com:bienstudio/gorover.co.git",
+    "type": "git"
+  },
+  "author": "Ethan Turkeltaub <ethan@gorover.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "smooth-scroll": "cferdinandi/smooth-scroll"
+  }
+}

@@ -21,3 +21,12 @@ defaults:
   values:
     layout: page
 permalink: pretty
+sass:
+  style: compressed
+exclude:
+- node_modules
+- Gemfile*
+- Gulpfile.js
+- package.json
+- yarn.lock
+- assets/jsc/application.js
