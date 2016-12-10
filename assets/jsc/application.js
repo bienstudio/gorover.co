@@ -17,13 +17,15 @@ $(document).ready(function () {
     var icon = toggle.find('i')
     var navs = $('.header__nav')
 
-    navs.toggleClass('visible')
+    navs.slideToggle('fast')
 
-    if (icon.html() === 'rows') {
-      icon.html('close')
-    } else {
-      icon.html('rows')
-    }
+    icon.fadeOut(100, function () {
+      if (icon.text() === 'rows') {
+        icon.text('close').fadeIn(100)
+      } else {
+        icon.text('rows').fadeIn(100)
+      }
+    })
   })
 
 

@@ -32,9 +32,15 @@
     display: none
     flex: 0 0 100%
 
+    -webkit-transition: max-height .1s linear
+    transition: max-height .1s linear
+
     @media (min-width: $breakpoint)
-      flex: 0 0 45%
-      display: block
+      flex: 0 0 90%
+      display: flex
+
+    .nav__list
+      flex: 1
 
   &__logo
     font-weight: $font-weight-semibold
