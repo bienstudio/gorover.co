@@ -1,6 +1,13 @@
 $(document).ready(function () {
 
   /*
+    Smooth scrolling
+  */
+  smoothScroll.init({
+    easing: 'easeInOutQuint'
+  })
+
+  /*
     Mobile navigaton
   */
   $('.js-nav-toggle').on('click', function (e) {
