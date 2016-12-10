@@ -14,6 +14,5 @@ newsletter:
 
     If you want to hear more about what we're working on, sign up for our newsletter below, and we'll update you along the way!
   endpoint: "http://rover1.createsend.com/t/d/s/njjdyh/"
-  # endpoint: "/"
   field_name: "cm-njjdyh-njjdyh"
 ---
