@@ -2,8 +2,10 @@
   background: $color-grey-lightest
   color: $color-grey
   display: flex
-  padding: rhythm(1)
+  flex-flow: row wrap
   font-size: $font-size-n1
+  justify-content: flex-start
+  padding: rhythm(1)
 
   a
     color: $color-grey
@@ -12,4 +14,15 @@
       color: $color-text
 
   &__legal, &__nav
-    flex: 1
+    flex: 0 0 100%
+
+    @media (min-width: $breakpoint)
+      flex: 1
+
+  &__legal
+    @media (min-width: $breakpoint)
+      order: 1
+
+  &__nav
+    @media (min-width: $breakpoint)
+      order: 2

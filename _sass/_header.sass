@@ -1,13 +1,40 @@
 .header
   background: $color-white
   display: flex
+  flex-flow: column
+  flex-wrap: wrap
   padding: rhythm(0.5) rhythm(1)
 
-  aside
-    flex: 0 0 7.5%
+  @media (min-width: $breakpoint)
+    flex-flow: row
 
-  nav
-    flex: 0 0 46.25%
+  &__banner
+    flex: 0 0 100%
+
+    @media (min-width: $breakpoint)
+      flex: 0 0 10%
+
+  &__logo, .js-nav-toggle
+    display: inline-block
+
+  .js-nav-toggle
+    float: right
+    font-size: $font-size-n1
+
+    i
+      position: relative
+      top: 2px
+
+    @media (min-width: $breakpoint)
+      display: none
+
+  &__nav
+    display: none
+    flex: 0 0 100%
+
+    @media (min-width: $breakpoint)
+      flex: 0 0 45%
+      display: block
 
   &__logo
     font-weight: $font-weight-semibold

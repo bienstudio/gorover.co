@@ -1,0 +1,35 @@
+.newsletter
+  max-width: $breakpoint
+  margin: 0 auto
+  padding: rhythm(2) rhythm(1)
+
+  > p + p
+    margin-top: rhythm(0.5)
+
+  &__form
+    border-top: 1px solid $color-grey-lightest
+    margin-top: rhythm(1)
+    padding-top: rhythm(1)
+
+    p
+      margin-top: 0
+
+      &:last-child
+        align-items: stretch
+        display: flex
+        flex-direction: row
+        width: 100%
+
+    input, span
+      flex: 1
+
+    span
+      border: 2px solid $color-grey-lightest
+      background: $color-grey-lightest
+      border-radius: 2px
+      color: $color-text
+      font-size: $font-size-n1
+      padding-left: rhythm(0.25)
+
+    button
+      margin-left: rhythm(0.25)

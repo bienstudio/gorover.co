@@ -1,36 +1,19 @@
 ---
 title: Index
-layout: blank
+layout: index
 permalink: "/"
+hero:
+  title: "Travel planning, simplified."
+  description: "Planning your trip should be exciting, not confusing."
+  image: "/uploads/balloons.jpg"
+newsletter:
+  text: |
+    Planning for a trip, whether for vacation or for business, can be confusing. What's the cheapest way to get there? Where do I stay? What should I see when I'm there, and what I should avoid? Add the stress of keeping together all of your flight information, your hotel reservations, and your activities, and you're probably going to not have as great of a time as you would've otherwise.
+
+    This is the problem Rover aims to solve. We're trying to simplify the planning and organizing process so you can do what you want on your trip.
+
+    If you want to hear more about what we're working on, sign up for our newsletter below, and we'll update you along the way!
+  endpoint: "http://rover1.createsend.com/t/d/s/njjdyh/"
+  # endpoint: "/"
+  field_name: "cm-njjdyh-njjdyh"
 ---
-
-<div class="hero">
-  <div class="hero__content">
-    <h2 class="hero__title">Travel planning, simplified.</h2>
-    <p class="hero__description">Planning your trip should be exciting, not confusing.</p>
-    <nav class="hero__nav nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a class="btn" href="#">Learn More</a></li>
-        <li class="nav__item"><a class="btn btn--blue" href="#">Join for Free</a></li>
-      </ul>
-    </nav>
-  </div>
-</div>
-
-<!-- <div class="features">
-  <div class="features__feature">
-    <i class="ss-icon">search</i>
-    <h3>Search</h3>
-    <p>Find the cheapest flights and best experiences</p>
-  </div>
-  <div class="features__feature">
-    <i class="ss-icon">merge</i>
-    <h3>Organize</h3>
-    <p>Organize all of your information into one place</p>
-  </div>
-  <div class="features__feature">
-    <i class="ss-icon">mobile</i>
-    <h3>Offline</h3>
-    <p>Have access to your information at all times, even if you don't have cell service</p>
-  </div>
-</div> -->

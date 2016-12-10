@@ -16,8 +16,9 @@
   </head>
   <body>
     <header class="header" role="banner">
-      <aside>
+      <aside class="header__banner">
         <h1 class="header__logo"><a href="/">Rover</a></h1>
+        <a class="js-nav-toggle" href="#"><i class="ss-icon">rows</i></a>
       </aside>
       <nav class="header__nav nav">
         <ul class="nav__list">
@@ -27,7 +28,7 @@
           {% endfor %}
         </ul>
       </nav>
-      <nav class="header__nav  nav">
+      <nav class="header__nav nav">
         <ul class="header__nav nav__list nav__list--right">
           <li class="nav__item"><a href="#">Login</a></li>
           <li class="nav__item"><a href="#">Join</a></li>
@@ -38,9 +39,6 @@
       {{ content }}
     </main>
     <footer class="footer" role="footer">
-      <aside class="footer__legal">
-        <p class="footer__copyright">&copy; 2016 <a href="/">Rover</a></p>
-      </aside>
       <nav class="footer__nav nav">
         <ul class="nav__list nav__list--right">
           {% assign nav = site.pages | where:"nav","footer" | sort: "position" %}
@@ -49,6 +47,11 @@
           {% endfor %}
         </ul>
       </nav>
+      <aside class="footer__legal">
+        <p class="footer__copyright">&copy; 2016 <a href="/">Rover</a></p>
+      </aside>
     </footer>
+    <script src="/assets/jsc/jquery-3.1.1.min.js"></script>
+    <script src="/assets/jsc/application.js"></script>
   </body>
 </html>
