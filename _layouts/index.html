@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="hero" style="background-image: url({{ page.hero.image }})">
+  <div class="hero__content">
+    <h2 class="hero__title">{{ page.hero.title }}</h2>
+    <p class="hero__description">{{ page.hero.description }}</p>
+    <footer class="hero__actions">
+      <a class="btn btn--blue" href="#newsletter">Learn More</a>
+    </footer>
+  </div>
+</div>
+
+<div class="newsletter" id="newsletter">
+  {{ page.newsletter.text | markdownify }}
+  <form class="form newsletter__form js-newsletter" action="{{ page.newsletter.endpoint }}" method="post">
+    <p>
+      <input class="form__input" id="email" name="{{ page.newsletter.field_name }}" placeholder="marco.polo@gorover.co" type="email" required>
+      <span class="newsletter__message hidden">Thank you for subscribing! Please click the link sent to your email to confirm your subscription.</span>
+      <button class="btn btn--blue" type="submit">Subscribe</button>
+    </p>
+  </form>
+</div>

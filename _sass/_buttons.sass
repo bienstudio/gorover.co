@@ -1,5 +1,6 @@
 .btn
   background: $color-grey-light
+  border: none
   border-radius: 2px
   color: $color-white !important
   display: block
@@ -10,8 +11,17 @@
   &:hover
     background: $color-grey
 
+  &:focus
+    outline: none
+
   &--blue
     background-color: $color-blue
 
     &:hover
       background-color: $color-blue-dark
+
+  &[disabled]
+    opacity: 0.75
+
+    &:hover
+      cursor: not-allowed
