@@ -1,10 +1,10 @@
 ---
 title: Index
-layout: index
 permalink: "/"
+layout: index
 hero:
-  title: "Travel planning, simplified."
-  description: "Planning your trip should be exciting, not confusing."
+  title: Travel planning, simplified.
+  description: Planning your trip should be exciting, not confusing.
   image: "/uploads/balloons.jpg"
 newsletter:
   text: |
@@ -13,6 +13,7 @@ newsletter:
     This is the problem Rover aims to solve. We're trying to simplify the planning and organizing process so you can do what you want on your trip.
 
     If you want to hear more about what we're working on, sign up for our newsletter below, and we'll update you along the way!
-  endpoint: "http://rover1.createsend.com/t/d/s/njjdyh/"
-  field_name: "cm-njjdyh-njjdyh"
+  endpoint: http://rover1.createsend.com/t/d/s/njjdyh/
+  field_name: cm-njjdyh-njjdyh
 ---
+
