@@ -17,11 +17,26 @@
       &:last-child
         align-items: stretch
         display: flex
-        flex-direction: row
+        flex-direction: column
         width: 100%
 
-    input, span
+        @media (min-width: $breakpoint)
+          flex-direction: row
+
+    // input, span
+    span
       flex: 1
+
+    input, button
+      flex: 0 0 100%
+
+    input
+      @media (min-width: $breakpoint)
+        flex: 1
+
+    button
+      @media (min-width: $breakpoint)
+        flex: initial
 
     span
       border: 2px solid $color-grey-lightest
@@ -32,4 +47,8 @@
       padding-left: rhythm(0.25)
 
     button
-      margin-left: rhythm(0.25)
+      margin-top: rhythm(0.25)
+
+      @media (min-width: $breakpoint)
+        margin-left: rhythm(0.25)
+        margin-top: 0
